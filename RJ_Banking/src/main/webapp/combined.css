@@ -1,0 +1,153 @@
+/* Basic reset to remove default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the whole transaction section */
+.transaction-container {
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Tab buttons at the top */
+.tab-buttons {
+    display: flex;
+    justify-content: space-around;
+    background-color: #007bff; /* Blue background */
+    padding: 10px 0;
+}
+
+/* Tab link button styles */
+.tab-link {
+    background-color: inherit;
+    color: #fff;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+/* Error Message Style */
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.tab-link.active {
+  /*  background-color: #0056b3;  Darker blue when active */
+}
+
+/* Tab content style */
+.tab-content {
+    padding: 20px;
+    display: none; /* Hide all tab content by default */
+}
+
+/* Default show first tab */
+.tab-content:first-child {
+    display: block;
+}
+
+/* Shared styles for both Deposit and Withdraw forms */
+.deposite, .Withdraw_Amount {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Heading style */
+.deposite h1, .Withdraw_Amount h1 {
+    color: #333; /* Dark grey color */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Input group style */
+.input-group {
+    margin-bottom: 20px; /* Increased margin for more spacing */
+    text-align: left; /* Align inputs to the left */
+}
+
+/* Label style */
+.input-group label {
+    font-size: 16px;
+    color: #555; /* Slightly lighter grey */
+    display: block; /* Display labels as blocks */
+    margin-bottom: 5px;
+}
+
+/* Input field style */
+.input-group input[type="text"] {
+    width: calc(100% - 20px); /* Adjust width as needed */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Space below the input */
+}
+
+/* Button style */
+button {
+	width: 100%;
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Link button style */
+.button {
+	width: 100%;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Link button hover effect */
+.button:hover {
+	
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+    .transaction-container {
+        width: 90%;
+    }
+
+    .input-group input[type="text"] {
+        width: 100%; /* Full width on smaller screens */
+    }
+}

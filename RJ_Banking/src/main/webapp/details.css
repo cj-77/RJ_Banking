@@ -1,0 +1,128 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Body Style */
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.details-contain {
+    width: 100%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+     max-width: 400px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table.user-info {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+      /* Center text alignment */
+}
+
+table.user-info th,
+table.user-info td {
+    text-align: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table.user-info td.label {
+    font-weight: bold;
+    color: #666;
+}
+
+table.user-info td.value {
+    color: #1b7fde;
+}
+
+/* Buttons and Links */
+.input-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input-group button {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.input-group button:hover {
+    background-color: #005bb5;
+}
+
+.input-group a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.input-group a:hover {
+    text-decoration: underline;
+}
+
+/* Logout Styling */
+.logout {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.logout a {
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logout a:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+/* Centering the logout div */
+.logout {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    height: 1vh;           /* Full viewport height for vertical centering */
+    text-align: center;      /* Center text alignment */
+}
+
+/* Additional styles for the link */
+.logout a {
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logout a:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+

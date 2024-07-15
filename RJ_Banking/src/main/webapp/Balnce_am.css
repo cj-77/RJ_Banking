@@ -1,0 +1,95 @@
+/* Basic reset to remove default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container for the form */
+.Balance_Amounte {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgb(0, 0, 255); /* Subtle shadow */
+    text-align: center;
+    max-width: 500px;
+        max-height: 500px;
+    width: 200%;
+}
+
+/* Style for the user information table */
+.user-info {
+    margin-top: 20px; /* Increase margin for more spacing */
+    margin-bottom: 30px; /* Add bottom margin for spacing below */
+    width: 100%;
+    text-align: center; /* Center-align the entire table */
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+/* Heading style */
+.Balance_Amount h1 {
+    color: #333; /* Dark grey color */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Input group style */
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add spacing between buttons */
+}
+
+/* Form input group additional margin */
+.form .input-group {
+    margin-top: 30px; /* Add top margin for spacing above */
+}
+
+/* Button style */
+button {
+	width: 100%;
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Link button style */
+.button {
+	width: 100%;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0; /* Adjust margin for spacing */
+    transition: background-color 0.3s ease;
+}
+
+/* Link button hover effect */
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+
+}
